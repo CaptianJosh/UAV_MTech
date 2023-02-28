@@ -45,3 +45,33 @@ for more detailed information please visit http://qgroundcontrol.com/
 DroneKit is an open-source software development kit (SDK) that enables developers to create drone applications using Python programming language. The SDK is built on top of the MAVLink protocol, which is a lightweight messaging protocol designed for communication between unmanned vehicles and ground control stations.
 
 DroneKit provides a high-level API for controlling and monitoring drones, including features such as vehicle control, mission planning, telemetry monitoring, and data logging. It can be used with a wide range of popular drone platforms, including DJI, 3DR, and Pixhawk.
+
+
+# Running the Simulation
+
+Open a terminal go to ardupilot repository and launch the ardupilot instance by running
+
+```
+sim_vehicle.py -v ArduCopter -f gazebo-iris --console
+``` 
+
+In another, second terminal run Gazebo
+
+```
+gazebo --verbose ardupilot_gazebo/worlds/iris_ardupilot.world
+
+```
+
+And on the third terminal, go to the location of the QGroundControl App image and run
+
+```
+chmod +x QGroundControl.AppImage 
+'''
+Only for one time ( The very first)
+And then run the image using
+
+'''
+./QGroundControl.AppImage
+```
+
+![Final Simulation Output](final.jpg)
