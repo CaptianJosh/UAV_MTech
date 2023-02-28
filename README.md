@@ -5,9 +5,16 @@ The quadcopter simulation platform, alternatively known as the Software In The L
 
 Additionally, a general-purpose open-source ground control station, which facilitates essential drone parameter configuration and waypoint navigation via a Graphical User Interface (GUI)-based desktop application, is also included in this course and installation procedure. 
 
+The general functional architecture of the entire setup is given in the figure below 
+
+
+
 
 QGroundControl provides full flight control and vehicle setup for PX4 or ArduPilot powered vehicles. It provides easy and straightforward usage for beginners, while still delivering high end feature support for experienced users.
 
+## Installations
+
+1. 
 ### Key Features:
 
 - Full setup/configuration of ArduPilot and PX4 Pro powered vehicles.
