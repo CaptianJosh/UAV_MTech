@@ -47,7 +47,7 @@ DroneKit is an open-source software development kit (SDK) that enables developer
 DroneKit provides a high-level API for controlling and monitoring drones, including features such as vehicle control, mission planning, telemetry monitoring, and data logging. It can be used with a wide range of popular drone platforms, including DJI, 3DR, and Pixhawk.
 
 
-# Running the Simulation
+## Running the Simulation
 
 Open a terminal go to ardupilot repository and launch the ardupilot instance by running
 
