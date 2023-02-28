@@ -1,5 +1,9 @@
 # UAV_MTech
-The repository has the installation modules for the UAV course 
+
+The repository functions as a pedagogical and installation handbook for the manifold modules designed for the Unmanned Aerial Vehicle (UAV) course.
+The quadcopter simulation platform, alternatively known as the Software In The Loop (SITL) implemented in this course, is Arducopter SITL integrated with Dronkit and Robot Operating System (ROS) as independent Application Programming Interfaces (APIs) to program intelligent flight maneuvers, and develop artificial intelligence (AI) capabilities using computer vision and machine learning techniques.
+
+Additionally, a general-purpose open-source ground control station, which facilitates essential drone parameter configuration and waypoint navigation via a Graphical User Interface (GUI)-based desktop application, is also included in this course and installation procedure. 
 
 
 QGroundControl provides full flight control and vehicle setup for PX4 or ArduPilot powered vehicles. It provides easy and straightforward usage for beginners, while still delivering high end feature support for experienced users.
