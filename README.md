@@ -74,4 +74,4 @@ And then run the image using
 ./QGroundControl.AppImage
 ```
 
-![Final Simulation Output](final.jpg)
+![Final Simulation Output](Final.jpg)
