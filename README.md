@@ -9,6 +9,14 @@ The general functional architecture of the entire setup is given in the figure b
 
 ![ Ardupilot Architecture](Archi1.jpg)
 
+## System and Hardware Requirement
+
+1. Ubuntu 20.04.5 LTS (Focal Fossa)
+2. ROS Noetic
+3. Gazebo 11
+5. Atleast 8 GB RAM 
+
+
 ## Installations
 
 1. [ Ardupilot and MAV Proxy ](https://github.com/2ashishmohan/UAV_MTech/blob/main/Ardupilot%20and%20MAVProxy.md)
