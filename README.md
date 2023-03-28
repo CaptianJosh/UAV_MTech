@@ -66,7 +66,7 @@ sim_vehicle.py -v ArduCopter -f gazebo-iris --console
 In another, second terminal run Gazebo
 
 ```
-gazebo --verbose ardupilot_gazebo/worlds/iris_ardupilot.world
+gazebo --verbose ardupilot_gazebo/worlds/iris_arducopter_runway.world
 
 ```
 
